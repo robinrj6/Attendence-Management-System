@@ -1,0 +1,13 @@
+    a.nav-link {
+        text-decoration: none;
+        color: aqua;
+    }
+    
+    .navbar-brand {
+        margin-left: 1%;
+    }
+    
+    a.nav-link:hover,
+    a.nav-link:focus {
+        color: darkorange;
+    }

@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="/welcome">{{title}}</a>
+    <ul class="nav nav-pills">
+        <li>
+            <a class="nav-link" routerLink="/welcome">Home</a>
+        </li>
+        <li>
+            <a class="nav-link" routerLink="/addNew">Add</a>
+        </li>
+        <li>
+            <a class="nav-link" routerLink="/markAtt">Mark Attendence</a>
+        </li>
+        <li>
+            <a class="nav-link" routerLink="/list">List all</a>
+        </li>
+
+    </ul>
+</nav>
+<div class="container">
+    <router-outlet>
+    </router-outlet>
+</div>

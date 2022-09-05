@@ -1,0 +1,17 @@
+p {
+    text-align: center;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    color: rgb(13, 100, 199)
+}
+
+* {
+    font-size: large;
+}

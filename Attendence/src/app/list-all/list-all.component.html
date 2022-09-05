@@ -1,0 +1,38 @@
+<div class="table-responsive">
+
+    <table class="table" *ngIf="persons.length">
+        <thead>
+            <th>
+                Date
+            </th>
+            <th>
+                Id
+            </th>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Attendence
+            </th>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let person of persons">
+                <td>{{person.date}}</td>
+                <td>{{person.id}}</td>
+                <td>{{person.fname}}</td>
+                <td>{{person.lname}}</td>
+                <td>{{person.phNumber}}</td>
+                <td>{{person.attendence}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>
